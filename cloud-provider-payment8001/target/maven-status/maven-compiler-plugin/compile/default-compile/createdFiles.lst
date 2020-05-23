@@ -1,0 +1,10 @@
+com\liangliang\springcloud\common\CommonResult.class
+com\liangliang\springcloud\controller\PaymentController.class
+com\liangliang\springcloud\common\IErrorCode.class
+com\liangliang\springcloud\config\MybatisConfig.class
+com\liangliang\springcloud\service\PaymentService.class
+com\liangliang\springcloud\entity\Payment.class
+com\liangliang\springcloud\Payment8001.class
+com\liangliang\springcloud\common\ResultCode.class
+com\liangliang\springcloud\dao\PaymentDao.class
+com\liangliang\springcloud\service\impl\PaymentServiceImpl.class
