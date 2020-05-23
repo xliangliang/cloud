@@ -11,18 +11,22 @@
 
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-api-commons</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <cloud-api-commons.version>1.0-SNAPSHOT</cloud-api-commons.version>
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.16.18</lombok.version>
         <mysql.version>5.1.47</mysql.version>
         <druid.version>1.1.16</druid.version>
         <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
+        <hutool.version>4.5.7</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -53,6 +57,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.liangliang.springcloud</groupId>
+                <artifactId>cloud-api-commons</artifactId>
+                <version>${cloud-api-commons.version}</version>
+            </dependency>
+
             <!-- mysql -->
             <dependency>
                 <groupId>mysql</groupId>
@@ -94,20 +105,15 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+
+            <!--Hutool Java工具包-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <fork>true</fork>
-                    <addResources>true</addResources>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

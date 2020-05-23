@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45bd2681-6002-4273-ac34-985546f750e6" name="Default Changelist" comment="" />
+    <list default="true" id="45bd2681-6002-4273-ac34-985546f750e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/liangliang/springcloud/Order80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/liangliang/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/liangliang/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/liangliang/springcloud/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/liangliang/springcloud/common/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/liangliang/springcloud/api/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/liangliang/springcloud/common/IErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/liangliang/springcloud/api/IErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/liangliang/springcloud/common/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/liangliang/springcloud/api/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/liangliang/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/liangliang/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/liangliang/springcloud/common/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/liangliang/springcloud/common/IErrorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/liangliang/springcloud/common/ResultCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/liangliang/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/liangliang/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +48,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -41,25 +73,30 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1cG6b4rMfUsllQ1OAcyglAxpCER" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -68,6 +105,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.liangliang.springcloud.dao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liangliang.springcloud.entity" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -75,7 +115,20 @@
       <recent name="com.liangliang.springcloud.service.impl" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Order80">
+    <configuration name="Order80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liangliang.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liangliang.springcloud.Order80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Payment8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liangliang.springcloud.Payment8001" />
@@ -83,6 +136,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Order80" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,11 +157,19 @@
       <workItem from="1590167036175" duration="316000" />
       <workItem from="1590167769963" duration="582000" />
       <workItem from="1590168390552" duration="96000" />
+      <workItem from="1590207894248" duration="1197000" />
+      <workItem from="1590209233301" duration="3641000" />
+      <workItem from="1590217296538" duration="224000" />
+      <workItem from="1590217548611" duration="24000" />
+      <workItem from="1590217601430" duration="389000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" width="1174" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590168484977">
@@ -126,42 +192,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590167118197" />
-    <state width="1323" height="296" key="GridCell.Tab.0.bottom" timestamp="1590168354479">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590168354479" />
-    <state width="1323" height="296" key="GridCell.Tab.0.center" timestamp="1590168354479">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state width="1323" height="272" key="GridCell.Tab.0.center" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590168354479" />
-    <state width="1323" height="296" key="GridCell.Tab.0.left" timestamp="1590168354479">
+    <state width="1323" height="272" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state width="1323" height="272" key="GridCell.Tab.0.left" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590168354479" />
-    <state width="1323" height="296" key="GridCell.Tab.0.right" timestamp="1590168354479">
+    <state width="1323" height="272" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590168354479" />
-    <state width="1323" height="296" key="GridCell.Tab.1.bottom" timestamp="1590167989465">
+    <state width="1323" height="272" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state width="1323" height="272" key="GridCell.Tab.1.bottom" timestamp="1590218098762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590167989465" />
-    <state width="1323" height="296" key="GridCell.Tab.1.center" timestamp="1590167989465">
+    <state width="1323" height="272" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590218098762" />
+    <state width="1323" height="272" key="GridCell.Tab.1.center" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590167989465" />
-    <state width="1323" height="296" key="GridCell.Tab.1.left" timestamp="1590167989465">
+    <state width="1323" height="272" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state width="1323" height="272" key="GridCell.Tab.1.left" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590167989465" />
-    <state width="1323" height="296" key="GridCell.Tab.1.right" timestamp="1590167989465">
+    <state width="1323" height="272" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state width="1323" height="272" key="GridCell.Tab.1.right" timestamp="1590218098761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="296" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590167989465" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1590168335928">
+    <state width="1323" height="272" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590218098761" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1590217510191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590168335928" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590217510191" />
     <state x="438" y="67" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590156490589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -170,13 +236,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="495" y="191" key="export.test.results/0.0.1366.728@0.0.1366.728" timestamp="1590158725618" />
-    <state x="57" y="59" key="new project wizard" timestamp="1590148191726">
+    <state x="57" y="59" key="new project wizard" timestamp="1590208909539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="57" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590148191726" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590167138289">
+    <state x="57" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590208909539" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590217508051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590167138289" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590217508051" />
   </component>
 </project>

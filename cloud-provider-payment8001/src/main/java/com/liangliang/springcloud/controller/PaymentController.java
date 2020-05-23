@@ -1,6 +1,6 @@
 package com.liangliang.springcloud.controller;
 
-import com.liangliang.springcloud.common.CommonResult;
+import com.liangliang.springcloud.api.CommonResult;
 import com.liangliang.springcloud.entity.Payment;
 import com.liangliang.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
  * created by Liangliang on 2020/5/22
  */
 @Controller
-@RequestMapping("payment")
+@RequestMapping("/payment")
 public class PaymentController {
 
     @Autowired

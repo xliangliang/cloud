@@ -1,4 +1,4 @@
-package com.liangliang.springcloud.common;
+package com.liangliang.springcloud.api;
 
 /**
  * created by Liangliang on 2020/5/22
