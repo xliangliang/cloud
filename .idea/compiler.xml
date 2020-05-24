@@ -18,6 +18,7 @@
         <module name="cloud-consumer-order81" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-payment8004" />
+        <module name="cloud-gateway9527" />
         <module name="cloud-consumer-order82" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
       <module name="cloud-eureka-server7003" target="1.8" />
+      <module name="cloud-gateway9527" target="1.8" />
       <module name="cloud-provider-payment8001" target="1.8" />
       <module name="cloud-provider-payment8002" target="1.8" />
       <module name="cloud-provider-payment8003" target="1.8" />
@@ -46,6 +48,7 @@
       <module name="cloud-eureka-server7001" options="" />
       <module name="cloud-eureka-server7002" options="" />
       <module name="cloud-eureka-server7003" options="" />
+      <module name="cloud-gateway9527" options="" />
       <module name="cloud-provider-payment8001" options="" />
       <module name="cloud-provider-payment8002" options="" />
       <module name="cloud-provider-payment8003" options="" />
