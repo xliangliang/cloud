@@ -18,12 +18,14 @@
         <module name="cloud-consumer-order81" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-payment8004" />
-        <module name="cloud-gateway9527" />
         <module name="cloud-consumer-order82" />
+        <module name="cloud-gateway9527" />
+        <module name="cloud-config-center3344" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-config-center3344" target="1.8" />
       <module name="cloud-consumer-order80" target="1.8" />
       <module name="cloud-consumer-order81" target="1.8" />
       <module name="cloud-consumer-order82" target="1.8" />
@@ -42,6 +44,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding uft-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-api-commons" options="" />
+      <module name="cloud-config-center3344" options="" />
       <module name="cloud-consumer-order80" options="" />
       <module name="cloud-consumer-order81" options="" />
       <module name="cloud-consumer-order82" options="" />

@@ -22,6 +22,7 @@
         <module>cloud-provider-payment8004</module>
         <module>cloud-consumer-order82</module>
         <module>cloud-gateway9527</module>
+        <module>cloud-config-center3344</module>
     </modules>
 
     <properties>
