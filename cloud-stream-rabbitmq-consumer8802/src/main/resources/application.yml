@@ -1,0 +1,29 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: stream-rabbitmq-consumer
+  rabbitmq:
+    host: 192.168.154.201
+    port: 5672
+    username: root
+    password: root
+  cloud:
+    stream:
+      binders:
+        input:
+          destination: myExchanges
+          binder: defaultRabbit
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+      # 集群版
+      #defaultZone: http://eureka7001.com:7001/eureka/, http://eureka7002.com:7002/eureka/, http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: rabbitmq-consumer8802
+    prefer-ip-address: true

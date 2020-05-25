@@ -1,0 +1,14 @@
+server:
+  port: 70
+
+spring:
+  application:
+    name: nacos-service-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.154.201:8848
+
+service-url:
+  nacos-service: http://nacos-service-provider
+
